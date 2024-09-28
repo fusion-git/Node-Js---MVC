@@ -1,0 +1,18 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "a node server with a database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js"
+  },
+  "author": "net ninja",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0"
+  }
+}
